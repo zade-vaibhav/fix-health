@@ -1,0 +1,41 @@
+.processCard{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(53, 52, 52);
+  border-radius: 10px;
+  color: white;
+}
+.processCard div img{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.title p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.desc p{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .processCard{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 10px;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .processCard{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 10px;
+  }
+ 
+}

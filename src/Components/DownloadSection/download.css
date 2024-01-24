@@ -1,0 +1,43 @@
+.download{
+    min-height:600px;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mob-icon img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+  
+@media only screen and (max-width: 650px) {
+    .download{
+        min-height:600px;
+        width: 100vw;
+        background-color: rgb(44, 51, 49);
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 150px;
+    
+    }
+    .mob-icon img{
+        height: 300px;
+        width: 250px;
+        object-fit: cover;
+    }
+}

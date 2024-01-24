@@ -1,0 +1,11 @@
+.card{
+   height: 450px;
+}
+
+.cardcontent{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

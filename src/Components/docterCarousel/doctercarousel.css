@@ -1,0 +1,33 @@
+.docterCarousel{
+   position: relative;
+   top: 170px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 100px;
+   color: white;
+
+}
+.docterCarousel h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.docterCarousel p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.docterCarousel button{
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+.carousel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    margin-bottom: 100px;
+}
